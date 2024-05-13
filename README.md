@@ -2,13 +2,13 @@
 
 ## How to build project
 
-* Then download model files from [here]([https://drive.google.com/drive/folders/1zHIxTBD9fcuhva723TjOYNz0qUqok26p?usp=sharing](https://drive.google.com/file/d/1iqtNm5GQOSlL-zaqqo6ZgXvKKvZLYlxV/view?usp=sharing)). Please keep file 'annotate.py' and the folder `incas_tuned_model` in the same directory.
+* Then download model files from [here](https://drive.google.com/drive/folders/1zHIxTBD9fcuhva723TjOYNz0qUqok26p?usp=sharing). Please keep the file 'annotate.py' and the folder `incas_tuned_model_ih` in the same directory.
 
 The directory should look like this:
 
 ````
 incas-phase2-concern
-├── incas_tuned_model --place models here
+├── incas_tuned_model_ih --place models here
 ├── Readme.md
 ├── annotate.py
 ├── requirements.txt
@@ -40,11 +40,11 @@ python annotate.py --file small_sample.jsonl
 
 input:
 ```
-{{"id": "84c8aad06b52235727a1e4f957c7a78f7a023c0d", "contentText": "@_miggypot29 I \u2764 EDCA\u270c"}
+{{"id": "84c8aad06b52235727a1e4f957c7a78f7a023c0d", "contentText": "@POTUS Nice try. In an effort to secure Israel with US weapons, you are ensuring Israel has plenty of bombs to hit Gaza and it\u2019s innocent civilians who have no where to hide."}
 ```
 
 output:
 ```
-{"concern": {"Concern/US Military": 1, "Concern/International Relations": 0, "Concern/Domestic Political Issues": 0, "Concern/Defense and Military": 0, "Concern/Insurgent Threats": 0, "Concern/Social and Economic Issues": 0, "Concern/Public Services": 0, "Concern/Environmental Issues": 0, "Concern/Energy": 0, "Concern/Labor and Migration": 0, "Concern/Crime": 0, "Concern/NoneOther": 0}}
+{"concern": {"Zionism": 1, "Antisemitism": 0, "Islamophobia": 0, "Two state solution": 0, "US funding of Israel": 1, "Boycott, Divestment, Sanctions (BDS)": 0, "War": 1, "Religion (Islam, Judaism)": 0}}
 ```
 
