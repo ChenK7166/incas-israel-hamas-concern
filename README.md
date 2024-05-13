@@ -28,6 +28,11 @@ pip install -r requirements.txt
 
 # Run concern model
 python annotate.py --file your_file_name
+
+# Run concern model on GPU
+python annotate-gpu.py --file your_file_name
+
+PS. If using the gpu version, please the GPU VRAM > 30GB, such as A100, A40, A6000.
 ```
 
 The input file parameter is a single dictionary file.
