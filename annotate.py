@@ -89,7 +89,7 @@ def label_concern(input_list):
                 output_result[CONCERN_DICT[concern]] = 1
                 is_match += 1
         if is_match == 0:
-            output_result["Concern/NoneOther"] = 1
+            output_result["NoneOther"] = 1
         predict_results.append(output_result)
 
     return predict_results
