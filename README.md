@@ -19,7 +19,8 @@ incas-israel-hamas-concern
 ## How to run
 ```
 # Install torch
-CPU: pip3 install torch torchvision torchaudio
+CPU (win): pip3 install torch torchvision torchaudio
+CPU (Linux): pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 GPU: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 # Install other lib
