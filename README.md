@@ -2,7 +2,7 @@
 
 ## How to build project
 
-* Then download model files from [here](https://drive.google.com/drive/folders/1zHIxTBD9fcuhva723TjOYNz0qUqok26p?usp=sharing). Please keep the file 'annotate.py' and the folder `incas_tuned_model_ih` in the same directory.
+* Then download model files from [here](https://drive.google.com/file/d/1iqtNm5GQOSlL-zaqqo6ZgXvKKvZLYlxV/view?usp=drive_link). Please keep the file 'annotate.py' and the folder `incas_tuned_model_ih` in the same directory.
 
 The directory should look like this:
 
