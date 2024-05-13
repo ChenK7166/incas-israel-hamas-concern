@@ -7,7 +7,7 @@
 The directory should look like this:
 
 ````
-incas-phase2-concern
+incas-israel-hamas-concern
 ├── incas_tuned_model_ih --place models here
 ├── Readme.md
 ├── annotate.py
