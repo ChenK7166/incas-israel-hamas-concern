@@ -1,4 +1,4 @@
-# incas-phase2-concern
+# incas-israel-hamas-war-concern
 
 ## How to build project
 
@@ -45,6 +45,6 @@ input:
 
 output:
 ```
-{"concern": {"Zionism": 1, "Antisemitism": 0, "Islamophobia": 0, "Two state solution": 0, "US funding of Israel": 1, "Boycott, Divestment, Sanctions (BDS)": 0, "War": 1, "Religion (Islam, Judaism)": 0}}
+{"concern": {"Zionism": 1, "Antisemitism": 0, "Islamophobia": 0, "Two state solution": 0, "US funding of Israel": 1, "Boycott, Divestment, Sanctions (BDS)": 0, "War": 1, "Religion (Islam, Judaism)": 0, "NoneOther": 0}}
 ```
 
