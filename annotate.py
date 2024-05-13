@@ -66,7 +66,7 @@ def label_concern(input_list):
         prompt_list.append(prompt)
 
     print("loading model and tokenizer ...")
-    model = "incas_tuned_model/"
+    model = "incas_tuned_model_ih/incas_tuned_model_ih_v1/"
     tokenizer = AutoTokenizer.from_pretrained(model, max_length=512)
     pipeline = transformers.pipeline(
         "text-generation",
