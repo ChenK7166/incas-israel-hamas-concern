@@ -7,3 +7,4 @@ argparse
 protobuf
 sentencepiece
 accelerate
+nltk
